@@ -1,0 +1,250 @@
+
+
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: navy;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px 12px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+ 
+.header-tag {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-btn {
+    border-color: rgba(220, 20, 60, 0.603);
+    background-color: rgba(220, 20, 60, 0.612);
+    border-width: 9px;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.hero {
+    background-color: #252420;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px;
+}
+
+.hero-content {
+    max-width: 387px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+
+.hero-content a {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.image {
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.hero-content2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 220px;
+    padding-left: 115px;
+    max-width: 435px;
+}
+
+.card-rapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    list-style: none;
+    max-width: 1400px;
+    padding-left: 115px;
+    padding-top: 55px;
+    font-size: 20px;
+    margin-bottom: 210px;
+}
+
+.card-text {
+    max-width: 314px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    line-height: 24px; 
+}
+
+.hero-content3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 440px;
+    background-color: #252420;
+}
+
+.hero-content3 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.hero-content3 p {
+    color: #FFFFFF;
+    max-width: 550px; 
+    font-size: 18px;
+}
+
+.hero-content3 a {
+    display: inline-block;
+    background-color: #FF7500;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.image2 {
+    /* width: 128px;
+    height: 96px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    margin-bottom: 200px;
+    position: relative;
+    bottom: 105px; */
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    float: left;
+    margin-left: 197px;
+    margin-top: 40px;
+}
+
+.hero3 {
+    background-color: #252420;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: nav;
+}
+
+.ff {
+    background-color: nav;
+}
+
+.footer2 {
+    text-align: center;
+    gap: 20px;
+    background-color: nvy;
+}
+
+.foot-p {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    background-color: nay;
+}
+
+.foot-h1 {
+    font-size: 30px;
+    background-color: nav;
+}
+
+
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+  
+.column h3 {
+    color: orange;
+    margin-bottom: 10px;
+}
+  
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.column li {
+    margin-bottom: 5px;
+}
+  
+.footer-line {
+    margin: 50px auto;
+    width: 85%; 
+    height: 1px;
+    background-color: #25242080; 
+}
+
+.footer-c {
+    background-color: nay;
+    gap: 68px;
+}
+
+footer {
+    background-color: avy;
+}
+ 
