@@ -3,23 +3,20 @@
 *, html {
     margin: 0;
     padding: 0;
+    background-color: #12233B;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-main {
-    background-color: navy;
-}
 
 header {
     display: flex;
     align-items: center;
-    background-color: black;
     justify-content: space-between;
-    padding: 20px 12px;
+    padding: 40px 40px;
 }
 
-nav ul {
+nav ol {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -28,32 +25,40 @@ nav ul {
 .header-tag {
     text-decoration: none;
     color: #fff;
+    font-size: 15px;
 }
 
 .header-btn {
-    border-color: rgba(220, 20, 60, 0.603);
-    background-color: rgba(220, 20, 60, 0.612);
-    border-width: 9px;
+    border-color: aqua;
+    border-width: 1px;
+    color: aqua;
+    padding: 8px;
     border-style: solid;
     border-radius: 6px;
 }
 
 .hero {
-    background-color: #252420;
     display: flex;
     align-items: center;
     padding: 20px 120px;
 }
 
 .hero-content {
-    max-width: 387px;
+    margin-top: 100px;
+    max-width: 700px;
+    margin-left: 130px;
+}
+
+.hero-content h3 {
+    color: aqua;
+    margin-bottom: 15px;
 }
 
 .hero-content h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #ffffffd6;
 }
 
 .hero-content p {
@@ -62,19 +67,37 @@ nav ul {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: #ffffffb7;
 }
 
 
 .hero-content a {
-    display: inline-block;
-    background-color: navy;
-    color: white;
+    display: flex;
+    max-width: 170px;
+    color: aqua;
     padding: 15px 30px;
+    border-color: aqua;
     border-radius: 5px;
+    border-style: solid;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.about-me {
+    max-width: 550px;
+    margin-left: 250px;
+    margin-top: 300px;
+    color: #FFFFFFb7;
+}
+
+.about-me h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-me p {
+    font-size: 20px;
 }
 
 .image {
@@ -89,6 +112,8 @@ nav ul {
 .hero-content2 {
     font-size: 40px;
     font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 130px;
     margin-bottom: 20px;
     padding-top: 220px;
     padding-left: 115px;
@@ -99,11 +124,13 @@ nav ul {
     display: flex;
     justify-content: space-between;
     gap: 5px;
+    color: #FFFFFF;
     list-style: none;
     max-width: 1400px;
     padding-left: 115px;
     padding-top: 55px;
     font-size: 20px;
+    margin-left: 130px;
     margin-bottom: 210px;
 }
 
@@ -119,7 +146,6 @@ nav ul {
     margin-top: 100px;
     margin-bottom: 100px;
     max-width: 440px;
-    background-color: #252420;
 }
 
 .hero-content3 h1 {
@@ -163,7 +189,6 @@ nav ul {
 }
 
 .hero3 {
-    background-color: #252420;
     display: flex;
     align-items: center;
     padding: 20px 120px;
